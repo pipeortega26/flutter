@@ -168,7 +168,7 @@ class ReusableIcon extends StatelessWidget {
   }
 }*/
 
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 const consh = 80.0;
@@ -332,10 +332,9 @@ class ReusableIcon extends StatelessWidget {
       ],
     );
   }
-}
+}*/
 
-
-/*import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 const consh = 80.0;
@@ -445,7 +444,7 @@ class Reusable extends StatelessWidget {
       {required this.colour, required this.cardChild, required this.onPress});
   final Color colour;
   final Widget cardChild;
-  final Function onPress;
+  final VoidCallback onPress;
 
   @override
   Widget build(BuildContext context) {
@@ -481,4 +480,4 @@ class ReusableIcon extends StatelessWidget {
       ],
     );
   }
-}*/
+}
