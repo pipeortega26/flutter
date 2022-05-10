@@ -452,7 +452,7 @@ class Reusable extends StatelessWidget {
       onTap: onPress,
       child: Container(
         child: cardChild,
-        margin: EdgeInsets.all(15.0),
+        margin: EdgeInsets.all(14.0),
         decoration: BoxDecoration(
           color: colour,
           borderRadius: BorderRadius.circular(10.0),
@@ -476,7 +476,7 @@ class ReusableIcon extends StatelessWidget {
           size: 150.0,
         ),
         SizedBox(height: 15.0),
-        Text(label, style: TextStyle(fontSize: 18.0, color: Colors.white)),
+        Text(label, style: TextStyle(fontSize: 14.0, color: Colors.white)),
       ],
     );
   }

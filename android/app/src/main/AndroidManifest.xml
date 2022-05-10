@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fluta">
+package="com.example.fluta">
+
+<uses-permission andorid.name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission andorid.name="android.permission.ACCESS_FINE_LOCATION"/>
+    
    <application
         android:label="fluta"
         android:name="${applicationName}"

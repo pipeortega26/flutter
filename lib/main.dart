@@ -1,23 +1,14 @@
 import 'package:flutter/material.dart';
-import 'inputpage.dart';
+import 'package:fluta/screens/loading_screen.dart';
 
-void main() => runApp(BMICalculator());
+void main() => runApp(MyApp());
 
-class BMICalculator extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-          primaryColor: Colors.red,
-          appBarTheme: AppBarTheme(
-            backgroundColor: Color.fromARGB(255, 171, 6, 171),
-          ),
-          accentColor: Colors.purple,
-          scaffoldBackgroundColor: Color.fromARGB(255, 0, 0, 0),
-          textTheme: TextTheme(
-            bodyText2: TextStyle(color: Colors.white),
-          )),
-      home: InputPage(),
+      theme: ThemeData.dark(),
+      home: LoadingScreen(),
     );
   }
 }
